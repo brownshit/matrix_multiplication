@@ -56,9 +56,9 @@ int main()
 	{
 		matrix3[i] = new double[size3];
 	}
-	//m*n / n*r Å©±âÀÇ °á°úÀÎ m*r±îÁö 3°³ÀÇ Çà·ÄÀ» »ý¼ºÇÏ¿´´Ù.
+	//m*n / n*r Å©ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ m*rï¿½ï¿½ï¿½ï¿½ 3ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½ï¿½ï¿½.
 
-	//ÇÔ¼öºÎ input : 
+	//ï¿½Ô¼ï¿½ï¿½ï¿½ input : 
 	multiplication m1;
 	matrix3 = m1.multiplicator(matrix1, matrix2, matrix3, size1, size2, size3);
 
@@ -77,4 +77,5 @@ int main()
 	delete[]matrix1;
 	
 	return 0;
+	//hi
 }
